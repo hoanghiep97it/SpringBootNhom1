@@ -56,6 +56,7 @@
 			<artifactId>mysql-socket-factory-connector-j-6</artifactId>
 			<version>1.0.2</version>
 		</dependency>
+			
 		
 		
 		<dependency>
@@ -106,14 +107,18 @@
 			<artifactId>google.api-services-drive</artifactId>
 			<version>v3-rev59-1.22.0</version>
 		</dependency-->
-		<dependency>
-    <groupId>com.microsoft.sqlserver</groupId>
-    <artifactId>mssql-jdbc</artifactId>
-    <version>6.4.0.jre8</version>
-</dependency>
+				<dependency>
+		    <groupId>com.microsoft.sqlserver</groupId>
+		    <artifactId>mssql-jdbc</artifactId>
+		    <version>6.4.0.jre8</version>
+		</dependency>
 
 	
-	
+			<dependency>
+				<groupId>com.amazonaws</groupId>
+				<artifactId>aws-java-sdk</artifactId>
+				<version>1.11.133</version>
+			</dependency>
 		
 	</dependencies>
 	<build>
