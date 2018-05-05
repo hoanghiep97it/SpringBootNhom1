@@ -126,11 +126,11 @@
 				</a></li>
 
 				<!-- fa-desktop: là sử dụng font-awesome để lấy các icon -->
-				<li class="active"><a href="manage-news"> <i
+				<li class="active"><a href="/"> <i
 						class="menu-icon fa fa-file-text"></i> <span class="menu-text">Manage
 							News </span>
 				</a></li>
-				<li><a href="manage-news"> <i class="menu-icon fa fa-users"></i>
+				<li><a href="/"> <i class="menu-icon fa fa-users"></i>
 						<span class="menu-text">Manage Users </span>
 				</a></li>
 
@@ -222,7 +222,7 @@
                                    				window.location.assign('delete-news?id=' + no)
                                    			}
                                    			else{
-                                   				window.location.assign('manage-news')
+                                   				window.location.assign('/')
                                    			}
                                                             
                                         } else if (val == 2) {

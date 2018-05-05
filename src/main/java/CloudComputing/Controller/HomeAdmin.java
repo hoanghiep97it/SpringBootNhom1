@@ -20,7 +20,7 @@ public class HomeAdmin {
 	@Autowired
 	private NewsService newService;
 
-	@GetMapping("/manage-news")
+	@GetMapping("/")
 	public String ManageNews(HttpServletRequest request) {
 		request.setAttribute("newss", newService.findAllNews());
 		request.setAttribute("announcement", "Show data successfull");
